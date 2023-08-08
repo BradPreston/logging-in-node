@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"allowJs": false,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"outDir": "./build",
+		"rootDir": "src",
+		"allowImportingTsExtensions": true,
+		"noEmit": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"esm": true,
+		"experimentalSpecifierResolution": "node"
+	}
+}
